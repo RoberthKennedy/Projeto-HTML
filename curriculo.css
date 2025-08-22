@@ -1,0 +1,67 @@
+/* Importação de fontes do Google Fonts, se desejar */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #216; /* Cor de fundo */
+    color: #218; /* Cor do texto */
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #218;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Estilos das seções */
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #555;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos de experiência e educação */
+.job, .degree {
+    margin-bottom: 1.5rem;
+}
+
+.job h3, .degree h3 {
+    margin: 0;
+    color: #216;
+}
+
+.role, .institution {
+    font-style: italic;
+    color: #216;
+    margin: 0.5rem 0;
+}
+
+ul {
+    padding-left: 20px;
+}
